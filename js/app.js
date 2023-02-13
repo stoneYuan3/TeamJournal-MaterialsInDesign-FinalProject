@@ -1,19 +1,3 @@
-const readFile = (file) => {
-  return fetch(file)
-    .then(response => response.text());
-}
-
-const fileNames = ["articles/w6.txt"];
-
-for (const fileName of fileNames) {
-  readFile(fileName)
-    .then((fileContent) => {
-      const element = document.createElement("p");
-      element.textContent = fileContent;
-      document.getElementById("w6").appendChild(element)
-	});
-}
-
 
 const App=()=>{
 	return(
@@ -23,6 +7,7 @@ const App=()=>{
 
 			<div class="flex flex-column" id="section-main">
 				<SectionArticle id="w6" />
+				<SectionArticle id="w7" />
 			</div>
 
 		</div>
@@ -32,3 +17,8 @@ const App=()=>{
 ReactDOM.render(
 	<App />
 ,document.getElementById("root"));
+
+
+// for(let i=0;i<weekList.length;i++){
+// 	document.getElementById("section-main").appendChild(<SectionArticle id={weekList[i]} />)
+// }

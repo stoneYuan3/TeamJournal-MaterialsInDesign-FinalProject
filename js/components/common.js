@@ -1,3 +1,26 @@
+const readFile = (file) => {
+  return fetch(file)
+    .then(response => response.text());
+}
+
+// const fileNames = ["articles/w6.txt"];
+// const weekList=["w6"];
+
+const fileNames = ["articles/w6.txt","articles/w7.txt"];
+const weekList=["w6","w7"];
+
+for (const fileName of fileNames) {
+  readFile(fileName)
+    .then((fileContent) => {
+      // const element = document.createElement("p");
+      // element.textContent = fileContent;
+      for(let i=0;i<weekList.length;i++){
+        document.getElementById(weekList[i]).innerHTML=fileContent
+      }
+
+    });
+}
+
 
 
 const Header=()=>{
@@ -26,8 +49,10 @@ const NavArticle=()=>{
 
 const SectionArticle=(props)=>{
   return(
-      <section id={props.id} class="flex flex-column section-article">
-        {props.content}
+      <section class="flex flex-column section-article">
+        <div class="flex flex-column" id={props.id}>
+          
+        </div>
       </section>
   );
 }
