@@ -3,17 +3,14 @@ const readFile = (file) => {
     .then(response => response.text());
 }
 
-// const fileNames = ["articles/w6.txt"];
-// const weekList=["w6"];
+const fileNames = ["articles/w6.txt"];
+const weekList=["w6"];
 
-const fileNames = ["articles/w6.txt","articles/w7.txt"];
-const weekList=["w6","w7"];
 
 for (const fileName of fileNames) {
   readFile(fileName)
     .then((fileContent) => {
-      // const element = document.createElement("p");
-      // element.textContent = fileContent;
+
       for(let i=0;i<weekList.length;i++){
         document.getElementById(weekList[i]).innerHTML=fileContent
       }
@@ -23,36 +20,31 @@ for (const fileName of fileNames) {
 
 
 
-const Header=()=>{
-  return(
-      <header class="flex flex-column">
-        <h1>IAT336 Final Project Journal</h1>
-        <div class="flex flex-row">
-          <p><strong>Team number</strong></p>
-          <p>name</p>
-          <p>name</p>
-          <p>name</p>
-          <p>name</p>
-        </div>
-      </header>
-  );
-}
-const NavArticle=()=>{
-  return(
-      <nav class="flex flex-row nav-article">
-        <a href="#w6">Week 6 (Feb13)</a>
-        <a href="#w7">Week 7 (Feb20)</a>
-        <a href="#w8">Week 8 (Feb27)</a>       
-      </nav>
-  );
-}
+"use strict";
 
-const SectionArticle=(props)=>{
-  return(
-      <section class="flex flex-column section-article">
-        <div class="flex flex-column" id={props.id}>
-          
-        </div>
-      </section>
-  );
-}
+const Header = () => {
+  return /*#__PURE__*/React.createElement("header", {
+    class: "flex flex-column"
+  }, /*#__PURE__*/React.createElement("h1", null, "IAT336 Final Project Journal"), /*#__PURE__*/React.createElement("div", {
+    class: "flex flex-row"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("strong", null, "Team number")), /*#__PURE__*/React.createElement("p", null, "name"), /*#__PURE__*/React.createElement("p", null, "name"), /*#__PURE__*/React.createElement("p", null, "name"), /*#__PURE__*/React.createElement("p", null, "name")));
+};
+const NavArticle = () => {
+  return /*#__PURE__*/React.createElement("nav", {
+    class: "flex flex-row nav-article"
+  }, /*#__PURE__*/React.createElement("a", {
+    href: "#w6"
+  }, "Week 6 (Feb13)"), /*#__PURE__*/React.createElement("a", {
+    href: "#w7"
+  }, "Week 7 (Feb20)"), /*#__PURE__*/React.createElement("a", {
+    href: "#w8"
+  }, "Week 8 (Feb27)"));
+};
+const SectionArticle = props => {
+  return /*#__PURE__*/React.createElement("section", {
+    class: "flex flex-column section-article"
+  }, /*#__PURE__*/React.createElement("div", {
+    class: "flex flex-column",
+    id: props.id
+  }));
+};

@@ -1,2 +1,0 @@
-<h2>Week 6 Journal Feb 13 2023</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis justo eu elit consectetur, vehicula dictum lacus elementum. Sed id tempor augue. Donec id facilisis magna, in vulputate ante. Fusce scelerisque at ex pulvinar elementum. Nunc luctus consequat rutrum. Phasellus eget purus ac ante bibendum elementum. Fusce gravida, nisl ut viverra varius, libero neque interdum lacus, ut venenatis orci est nec lectus. Suspendisse nec ornare magna, ut dictum ligula. Morbi eget sapien quis eros vestibulum iaculis sit amet at libero.</p>

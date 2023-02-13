@@ -1,24 +1,11 @@
+"use strict";
 
-const App=()=>{
-	return(
-		<div>
-			<Header />
-			<NavArticle />
-
-			<div class="flex flex-column" id="section-main">
-				<SectionArticle id="w6" />
-				<SectionArticle id="w7" />
-			</div>
-
-		</div>
-	);
-}
-
-ReactDOM.render(
-	<App />
-,document.getElementById("root"));
-
-
-// for(let i=0;i<weekList.length;i++){
-// 	document.getElementById("section-main").appendChild(<SectionArticle id={weekList[i]} />)
-// }
+const App = () => {
+  return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(Header, null), /*#__PURE__*/React.createElement(NavArticle, null), /*#__PURE__*/React.createElement("div", {
+    class: "flex flex-column",
+    id: "section-main"
+  }, /*#__PURE__*/React.createElement(SectionArticle, {
+    id: "w6"
+  })));
+};
+ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("root"));
