@@ -3,6 +3,7 @@ const readFile = (file) => {
     .then(response => response.text());
 }
 
+//add new weeks here
 const fileNames = ["articles/w6.txt"];
 const weekList=["w6"];
 
@@ -34,11 +35,9 @@ const NavArticle = () => {
     class: "flex flex-row nav-article"
   }, /*#__PURE__*/React.createElement("a", {
     href: "#w6"
-  }, "Week 6 (Feb13)"), /*#__PURE__*/React.createElement("a", {
-    href: "#w7"
-  }, "Week 7 (Feb20)"), /*#__PURE__*/React.createElement("a", {
-    href: "#w8"
-  }, "Week 8 (Feb27)"));
+  }, "Week 6")
+
+  );
 };
 const SectionArticle = props => {
   return /*#__PURE__*/React.createElement("section", {

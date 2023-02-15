@@ -42,8 +42,13 @@ html{
 }
 /*/////////////////////////////////////////////////////////*/
 
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
 .section-body{
-    margin:0 20rem;
+    margin:0 25rem;
 }
 .section-body header{
     justify-content: center;
@@ -75,4 +80,11 @@ html{
 }
 .section-article h2{
     margin-bottom: 1rem;
+}
+
+.section-article figure{
+    margin:2rem 0rem;
+}
+.section-article figcaption{
+    margin-top: 1rem;
 }

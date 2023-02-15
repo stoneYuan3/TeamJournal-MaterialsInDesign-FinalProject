@@ -1,2 +1,13 @@
-<h2>Week 6 Journal Feb 13 2023</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mattis justo eu elit consectetur, vehicula dictum lacus elementum. Sed id tempor augue. Donec id facilisis magna, in vulputate ante. Fusce scelerisque at ex pulvinar elementum. Nunc luctus consequat rutrum. Phasellus eget purus ac ante bibendum elementum. Fusce gravida, nisl ut viverra varius, libero neque interdum lacus, ut venenatis orci est nec lectus. Suspendisse nec ornare magna, ut dictum ligula. Morbi eget sapien quis eros vestibulum iaculis sit amet at libero.</p>
+<h2>Monday Feb 13, Meeting, Discord (Week 6)</h2>
+<p>Today we met to discuss possible ideas for the project. A survival/communications balloon concept was chosen after a brief dialogue. We felt that this concept was the most dynamic, useful in multiple scenarios, and could fit into a 13 foot shipping box. Ideally, the balloon would act as a beacon for someone in danger. Also, we imagine that it can support other technologies that we discussed today - such as solar panels and communication hardware. The fabric balloon shell can also be repurposed as a tarp, blanket, or bag depending on the disaster/survival context.</p>
+
+<figure>
+	<img src="img/w6paper.png">
+	<figcaption><em>Paper ideas: packaging/possible use as fire-starter? Insulation? waterproof paper as container?</em></figcaption>
+</figure>
+
+<figure>
+	<img src="img/w6fabric.png">
+	<figcaption><em>Fabric ideas: Kevlar, possible to move injured people, or move heavy debris with fabric? Balloons? Sleep bags? Containers? Parts of solar panel table? Wraps?
+	</em></figcaption>
+</figure>
