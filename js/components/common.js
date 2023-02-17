@@ -28,7 +28,7 @@ const Header = () => {
     class: "flex flex-column"
   }, /*#__PURE__*/React.createElement("h1", null, "IAT336 Final Project Journal"), /*#__PURE__*/React.createElement("div", {
     class: "flex flex-row"
-  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("strong", null, "Team number")), /*#__PURE__*/React.createElement("p", null, "name"), /*#__PURE__*/React.createElement("p", null, "name"), /*#__PURE__*/React.createElement("p", null, "name"), /*#__PURE__*/React.createElement("p", null, "name")));
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("strong", null, "Lab D102")), /*#__PURE__*/React.createElement("p", null, "Owen Chan "), /*#__PURE__*/React.createElement("p", null, "Alfred Choi"), /*#__PURE__*/React.createElement("p", null, "Greg Withers"), /*#__PURE__*/React.createElement("p", null, "Jack Yuan")));
 };
 const NavArticle = () => {
   return /*#__PURE__*/React.createElement("nav", {
