@@ -1,6 +1,16 @@
 <h2>Monday Feb 13, Meeting, Discord (Week 6)</h2>
 <p>Today we met to discuss possible ideas for the project. A survival/communications balloon concept was chosen after a brief dialogue. We felt that this concept was the most dynamic, useful in multiple scenarios, and could fit into a 13 foot shipping box. Ideally, the balloon would act as a beacon for someone in danger. Also, we imagine that it can support other technologies that we discussed today - such as solar panels and communication hardware. The fabric balloon shell can also be repurposed as a tarp, blanket, or bag depending on the disaster/survival context.</p>
 
+<h3>Roles</h3>
+<ul>
+	<li><strong>Owen:</strong> Idea search, Poster design, Journal writing</li>
+	<li><strong>Alfred:</strong> Idea search, Concept illustrating</li>
+	<li><strong>Greg:</strong> Idea search, Write content for poster, Journal writing</li>
+	<li><strong>Jack:</strong> Idea search, Poster design, Develop journal</li>
+</ul>
+
+
+<h3>Material Ideas</h3>
 <figure>
 	<img src="img/w6paper.png">
 	<figcaption><em>Paper ideas: packaging/possible use as fire-starter? Insulation? waterproof paper as container?</em></figcaption>
